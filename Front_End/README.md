@@ -1,4 +1,14 @@
 # React + Vite
+1.installed node js.
+2.installed vite@latest version.
+3.created seperate folders for src and assests.
+4.created jsx file.
+5.rendered in app.
+
+
+
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
