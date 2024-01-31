@@ -1,0 +1,42 @@
+
+.dashboard-container {
+    display: flex;
+  }
+  .dashboard-container .sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #C3C476;
+    padding-top: 20px;
+    color: white;
+    margin-right: 15px;
+  }
+  
+  .dashboard-container  .sidebar h2 {
+    text-align: center;
+  }
+  
+  .dashboard-container   .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard-container  .sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dashboard-container   .sidebar li:hover {
+    background-color: #555;
+  }
+  .dashboard-container .cards {
+  display: flex;
+}
+.dashboard-container  .carddash{
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .dashboard-container .carddash3{
+    margin-top: 40px;
+    margin-left:40px;
+}

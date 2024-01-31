@@ -1,0 +1,61 @@
+/* Customize.css */
+
+.fo body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+ .fo .custom-form {
+    justify-content: center;
+    margin-top: 80px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* width: 80%; */
+    max-width: 600px;
+    margin-left: 320px;
+  }
+  
+  
+  .fo form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fo label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .fo input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .fo button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    /* Apply styles for screens with a maximum width of 768px */
+    
+    .fo .custom-form {
+        width: 90%;
+        margin: 10px;
+  }
+  }

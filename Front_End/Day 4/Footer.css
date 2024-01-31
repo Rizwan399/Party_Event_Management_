@@ -1,0 +1,10 @@
+
+*{
+    margin: 0%;
+}
+@media screen and (max-width:678px){
+    .foot box{
+        margin-right:5px;
+    }
+}
+

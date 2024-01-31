@@ -1,0 +1,120 @@
+/* AboutUsPage.css */
+
+/* General Styles */
+/* body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff; /* White background */
+  .color{
+    background-color: aliceblue;
+  }
+  
+  .about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  } 
+  */
+  
+  /* /* header h1 {
+    color: #3498db;
+  } */
+  
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .centered-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .centered-image img {
+    max-width: 100%;
+    border-radius: 3px;
+  }
+  
+  .text-section {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+   
+  }
+  
+  .text-section p {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+  .image-description {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+    
+   
+  }
+  
+  .image-description img {
+    max-width: 100%;
+    border-radius: 2px;
+    /* margin-left: 10rem; */
+  }
+  
+  
+  
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 900px) {
+    .main-content {
+      flex-direction: column;
+    }
+  
+    .centered-image {
+      margin-bottom: 20px;
+    }
+  
+    .text-section {
+      margin-top: 20px;
+    }
+  
+    .image-section {
+      flex-direction: column;
+    }
+  
+    .image-description {
+      margin-bottom: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    header h1 {
+      font-size: 1.5em;
+    }
+  
+    .text-section {
+      padding: 10px;
+    }
+  }
+  .me{
+    margin-top: 3rem;
+    color:#ffb60c;
+  }
