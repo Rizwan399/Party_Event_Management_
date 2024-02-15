@@ -1,0 +1,134 @@
+/* src/components/ContactPage.css */
+.temp{
+    margin-top: -50px;
+    background-color: dimgrey;
+    }
+    .temp   .contact-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      margin: 50px;
+    
+    } 
+    .temp .contact-form {
+      width: 50%;
+      background-color: #ffea00; /* Yellow background */
+      padding-left: 18px;
+      width: 30rem;
+      height: 38rem;
+      border-radius: 8px;
+      margin-top: 120px;
+      /* margin-right: -6rem;; */
+      /* margin-left: 100px; */
+    
+      /* @media screen and (max-width: 1080px) {
+        width: 100%;
+      } */
+    
+        h2 {
+        margin-top: 3rem;
+        margin-left: 5.5rem;
+      }
+    
+       form {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-left: 30px;
+    
+       label {
+          margin-bottom: 8px;
+        }
+    
+         input,
+        textarea {
+          padding: 10px;
+          margin-bottom: 20px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          width:85%;
+        }
+    
+         button {
+            margin-left: 5rem;
+          padding: 10px;
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          width: 50%;
+        }
+      }
+    }
+    
+    .temp .contact-info {
+    
+      color: #fff;
+      width: 40%;
+      margin-top: 120px;
+
+      h2 {
+        margin-bottom: 20px;
+        /* margin-left: -2rem;; */
+       
+      }
+    
+      p {
+        margin-bottom: 10px;
+      }
+    
+      img {
+        width: 100%;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+    }
+    
+    .temp .success-popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #4caf50; /* Green background */
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      cursor: pointer;
+    }
+    
+    .temp .success-popup p {
+      margin: 0;
+    }
+    .temp .map{
+      overflow: hidden;
+      height: 220px;
+      padding-bottom: 30%;
+      position: relative;
+      /* margin-left: 3rem; */
+    
+    
+    }
+    /* .map iframe{
+      border: 0;
+      height: 100%;
+      width:100%;
+      left: 0;
+      position: absolute;
+    
+    } */
+
+     @media screen and (max-width: 1070px) {
+      .temp   .contact-container {
+        flex-direction: column;
+        align-items: center;
+        /* width:150%; */
+      }
+       .temp .contact-info {
+    color: #fff;
+    width: 65%;
+    margin-top: 70px;
+   
+}
+    }

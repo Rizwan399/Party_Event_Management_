@@ -1,0 +1,29 @@
+/* styles.css */
+
+.orders-container {
+    margin: 20px;
+  }
+  
+  .orders-container .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .orders-container thead {
+    background-color: #f2f2f2;
+  }
+  
+  .orders-container th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .orders-container th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .orders-container tr:hover {
+    background-color:#f2f2f2;
+}
